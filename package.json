@@ -1,0 +1,32 @@
+{
+  "name": "headerstream",
+  "version": "0.0.0",
+  "description": "grab the first n bytes of a stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tspec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvinmetcalf/headerstream.git"
+  },
+  "keywords": [
+    "header",
+    "stream"
+  ],
+  "author": "Calvin W. Metcalf <calvin.metcalf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calvinmetcalf/headerstream/issues"
+  },
+  "homepage": "https://github.com/calvinmetcalf/headerstream#readme",
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "once": "^1.3.2",
+    "readable-stream": "^2.0.1"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  }
+}
